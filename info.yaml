@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     354858054593504257       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Logic Gate Demonstration Unit"      # Project title
+  author:       "Lukas Hubmer"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Demonstrates all major logic Bit Ops"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,23 +16,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
+  ui[0]: "AND a"
+  ui[1]: "AND b"
+  ui[2]: "OR a"
+  ui[3]: "OR b"
+  ui[4]: "XOR a"
+  ui[5]: "XOR b"
+  ui[6]: "NOT"
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "AND"
+  uo[1]: "NAND"
+  uo[2]: "OR"
+  uo[3]: "NOR"
+  uo[4]: "XOR"
+  uo[5]: "XNOR"
+  uo[6]: "NOT"
   uo[7]: ""
 
   # Bidirectional pins
