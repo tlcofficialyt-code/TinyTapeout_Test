@@ -23,8 +23,8 @@ NOT Gates Input connected to Not Pin, output is connected to NOT
 
 ## How to test
 
-Explain how to use your project
+Probieren ;)
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+7 Switches and 7 LEDs
