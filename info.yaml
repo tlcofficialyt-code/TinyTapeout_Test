@@ -6,7 +6,7 @@ project:
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Demonstrates all major logic Bit Ops"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     10000       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -16,12 +16,12 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "AND a"
-  ui[1]: "AND b"
-  ui[2]: "OR a"
-  ui[3]: "OR b"
-  ui[4]: "XOR a"
-  ui[5]: "XOR b"
+  ui[0]: "AND_a"
+  ui[1]: "AND_b"
+  ui[2]: "OR_a"
+  ui[3]: "OR_b"
+  ui[4]: "XOR_a"
+  ui[5]: "XOR_b"
   ui[6]: "NOT"
   ui[7]: ""
 
