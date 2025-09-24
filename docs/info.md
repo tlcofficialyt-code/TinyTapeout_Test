@@ -9,7 +9,17 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+AND Gates Inputs connected to Pins AND a and AND b, output is connected to AND
+NAND Gates Inputs connected to Pins AND a and AND b, output is connected to NAND
+
+
+OR Gates Inputs connected to Pins OR a and OR b, output is connected to OR
+NOR Gates Inputs connected to Pins OR a and OR b, output is connected to NOR
+
+XOR Gates Inputs connected to Pins XOR a and XOR b, output is connected to XOR
+XNOR Gates Inputs connected to Pins XOR a and XOR b, output is connected to XNOR
+
+NOT Gates Input connected to Not Pin, output is connected to NOT
 
 ## How to test
 
